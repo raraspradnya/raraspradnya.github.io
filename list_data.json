@@ -1,22 +1,40 @@
 {
-	"movies": [
+	"recipe_book": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+			"Dish Name": "Salmon Pesto Pasta",
+			"Type": "Main",
+			"Main Ingredients": "Pasta, salmon, pesto, white mushrooms",
+			"Time": "15 min", 
+			"Why I Love It": "Simple treat when I feel like I accomplish something"
+		}, 
+		{
+			"Dish Name": "Overnight Oats",
+			"Type": "Breakfast",
+			"Main Ingredients": "Rolled oats, milk, chia seed, berries",
+			"Time": "Prep 5 min", 
+			"Why I Love It": "Morning life-saver"
+		}, 
+		{
+			"Dish Name": "Sauteed Green Beans",
+			"Type": "Side",
+			"Main Ingredients": "Green beans, grounded pork, garlic",
+			"Time": "15 min", 
+			"Why I Love It": "Easy chinese at home"
+		}, 
+		{
+			"Dish Name": "Tuna Avocado Toast",
+			"Type": "Main",
+			"Main Ingredients": "Avocado, canned tuna, mayo, sourdough bread",
+			"Time": "10 min", 
+			"Why I Love It": "Light but still filling"
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
-		},
-		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+			"Dish Name": "Creamy Spinach",
+			"Type": "Side",
+			"Main Ingredients": "Spinach, cream, cheese, white mushroom, onion",
+			"Time": "10 min", 
+			"Why I Love It": "Eating vegetable never taste this good"
 		}
+
 	]
 }
