@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://raraspradnya.github.io/al-folio/sitemap.xml
+Sitemap: https://raraspradnya.github.io/sitemap.xml
