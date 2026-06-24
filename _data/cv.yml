@@ -1,14 +1,8 @@
 cv:
-  name: Raras Pradnya Pramudita (Raras)
-  label: Master's Student in Information Management and Systems
+  name: Raras Pradnya Pramudita
+  headline: Master's Student in Information Management and Systems
   email: raras.pramudita@berkeley.edu
   location: Berkeley, CA
-  image: ""
-  summary: >
-    Master's student at UC Berkeley specializing in applied AI/ML. Previously a Senior Technical Architect
-    at Accenture, with 3+ years of experience building cloud-native infrastructure and enterprise-scale
-    systems serving 15M+ users. Passionate about developing AI/ML projects including multimodal systems,
-    generative models, and agentic workflows.
 
   social_networks:
     - network: GitHub
@@ -17,27 +11,32 @@ cv:
       username: raras-pramudita
 
   sections:
+    Summary:
+      - bullet: >
+          Master's student at UC Berkeley specializing in applied AI/ML. Previously a Senior Technical Architect
+          at Accenture, with 3+ years of experience building cloud-native infrastructure and enterprise-scale
+          systems serving 15M+ users. Passionate about developing AI/ML projects including multimodal systems,
+          generative models, and agentic workflows.
+
     Education:
       - institution: University of California, Berkeley
         location: Berkeley, CA
-        url: https://www.ischool.berkeley.edu/
         area: Information Management and Systems
-        studyType: Master of Information Management and Systems
+        degree: Master of Information Management and Systems
         start_date: 2025-08
         end_date: 2027-05
-        score: "3.87/4.0"
         highlights:
+          - "GPA: 3.87/4.0"
           - "Coursework: Quantitative Research Methods, Applied Machine Learning, Generative AI, Agentic AI, Data Analytics"
 
       - institution: Bandung Institute of Technology
         location: Bandung, Indonesia
-        url: https://www.itb.ac.id/
         area: Computer Science
-        studyType: Bachelor of Engineering
+        degree: Bachelor of Engineering
         start_date: 2018-08
         end_date: 2022-07
-        score: "3.64/4.0"
         highlights:
+          - "GPA: 3.64/4.0"
           - "Coursework: Algorithms & Data Structures, Object-Oriented Programming, Data Science & Data Mining"
 
     Experience:
@@ -64,25 +63,21 @@ cv:
           - Produced structured reports and metrics during pre-production testing, demonstrating skills in data documentation, reporting, and stakeholder communication.
 
     Skills:
-      - name: AI / ML
-        icon: fa-solid fa-brain
-        keywords: "LangChain, LangGraph, PyTorch, TensorFlow, Scikit-learn, Claude, OpenAI API, OpenCV"
+      - label: AI / ML
+        details: "LangChain, LangGraph, PyTorch, TensorFlow, Scikit-learn, Claude, OpenAI API, OpenCV"
 
-      - name: Programming Languages & Frameworks
-        icon: fa-solid fa-code
-        keywords: "Python, SQL, Java, JavaScript/TypeScript, HTML, CSS, Pandas, R, NumPy"
+      - label: Programming Languages & Frameworks
+        details: "Python, SQL, Java, JavaScript/TypeScript, HTML, CSS, Pandas, R, NumPy"
 
-      - name: Cloud & Infrastructure
-        icon: fa-solid fa-cloud
-        keywords: "AWS (EKS, RDS, S3), Docker, Kubernetes, Helm, GitLab CI/CD, Jenkins, Ansible, Linux, Prometheus, Grafana, ELK Stack"
+      - label: Cloud & Infrastructure
+        details: "AWS (EKS, RDS, S3), Docker, Kubernetes, Helm, GitLab CI/CD, Jenkins, Ansible, Linux, Prometheus, Grafana, ELK Stack"
 
-      - name: Databases
-        icon: fa-solid fa-database
-        keywords: "PostgreSQL, Oracle DB, Redis, Apache Kafka, RabbitMQ"
+      - label: Databases
+        details: "PostgreSQL, Oracle DB, Redis, Apache Kafka, RabbitMQ"
 
     Languages:
-      - name: Indonesian
-        summary: "Native speaker"
+      - label: Indonesian
+        details: "Native speaker"
 
-      - name: English
-        summary: "Fluent"
+      - label: English
+        details: "Fluent"
