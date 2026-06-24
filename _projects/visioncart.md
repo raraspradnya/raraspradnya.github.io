@@ -11,20 +11,14 @@ Modern e-commerce is still anchored to keyword search — a modality that fails 
 
 Built as a group project at UC Berkeley School of Information for [INFO 290. Fundamentals of Generative AI](https://corneliailin.github.io/website-info290-genai-spring2026/) Course.
 
-<video width="100%" controls>
-  <source src="{{ '/assets/video/visioncart_demo.mp4' | relative_url }}" type="video/mp4">
-</video>
-
 ---
 
 ### Framework
 
 VisionCart runs a four-agent pipeline orchestrated with **LangGraph**
 
-<div class="row justify-content-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/1_visioncart_diagram.png" title="VisionCart System Architecture" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div style="width: 66%; margin: 1rem auto;">
+    {% include figure.liquid loading="eager" path="/assets/img/1_visioncart_diagram.png" title="VisionCart System Architecture" class="img-fluid rounded z-depth-1" %}
 </div>
 
 | Agent               | Role                                                                                                                                                        |
@@ -36,7 +30,7 @@ VisionCart runs a four-agent pipeline orchestrated with **LangGraph**
 
 ---
 
-## Tech Stack
+### Tech Stack
 
 - **Agents & orchestration:** LangGraph, LangChain
 - **Vision model:** Qwen2.5-VL-7B (via HuggingFace)
@@ -45,6 +39,11 @@ VisionCart runs a four-agent pipeline orchestrated with **LangGraph**
 - **Embeddings:** CLIP
 - **Frontend:** Chainlit
 - **Languages:** Python
+
+<video width="100%" controls>
+  <source src="{{ '/assets/video/visioncart_demo.mp4' | relative_url }}" type="video/mp4">
+</video>
+
 
 ---
 
