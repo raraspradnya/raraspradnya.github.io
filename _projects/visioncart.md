@@ -44,7 +44,6 @@ VisionCart runs a four-agent pipeline orchestrated with **LangGraph**
   <source src="{{ '/assets/video/visioncart_demo.mp4' | relative_url }}" type="video/mp4">
 </video>
 
-
 ---
 
 <a href="https://github.com/kurumigithub/VisionCart" target="_blank">View on GitHub →</a>

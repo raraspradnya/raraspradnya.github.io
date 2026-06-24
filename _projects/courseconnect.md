@@ -9,7 +9,7 @@ category: work
 
 Students spend 6–10 hours per semester cross-checking requirements across ~10 different systems, and 70% never discover courses outside their major that match their interests. Planning an academic schedule is fragmented, stressful, and inefficient.
 
-**CourseConnect** consolidates all of that into a single natural language interface. Ask it *"What courses fulfill my core requirements next semester without time conflicts?"* and it returns validated, personalized recommendations that actually check your transcript, prerequisites, and schedule.
+**CourseConnect** consolidates all of that into a single natural language interface. Ask it _"What courses fulfill my core requirements next semester without time conflicts?"_ and it returns validated, personalized recommendations that actually check your transcript, prerequisites, and schedule.
 
 Built as a course project at UC Berkeley School of Information for [INFO 290: Knowledge Representation for Intelligent Applications](https://www.ischool.berkeley.edu/courses/info/290/kria).
 
@@ -21,18 +21,18 @@ Built as a course project at UC Berkeley School of Information for [INFO 290: Kn
 
 ### What It Does
 
-| Feature | Description |
-|---|---|
-| **Natural Language Interface** | Ask questions like you're talking to an advisor — no portal-clicking required |
-| **Smart Validation** | Instantly checks prerequisites, time conflicts, credit limits, and course format |
-| **Discover Hidden Gems** | Surfaces cross-disciplinary electives matched to your stated interests |
-| **Peer Insights** | Find students with similar course histories and see what they took next |
+| Feature                        | Description                                                                      |
+| ------------------------------ | -------------------------------------------------------------------------------- |
+| **Natural Language Interface** | Ask questions like you're talking to an advisor — no portal-clicking required    |
+| **Smart Validation**           | Instantly checks prerequisites, time conflicts, credit limits, and course format |
+| **Discover Hidden Gems**       | Surfaces cross-disciplinary electives matched to your stated interests           |
+| **Peer Insights**              | Find students with similar course histories and see what they took next          |
 
 ---
 
 ### Graph RAG Architecture
 
-Standard RAG retrieves text chunks from a vector store — which works for open-ended questions but struggles when answers require traversing structured relationships like *"does this course conflict with that one, and do I meet the prerequisite?"* CourseConnect uses **Graph RAG** instead, grounding the LLM in a structured knowledge graph for retrieval rather than unstructured embeddings.
+Standard RAG retrieves text chunks from a vector store — which works for open-ended questions but struggles when answers require traversing structured relationships like _"does this course conflict with that one, and do I meet the prerequisite?"_ CourseConnect uses **Graph RAG** instead, grounding the LLM in a structured knowledge graph for retrieval rather than unstructured embeddings.
 
 The pipeline runs in four steps:
 
@@ -45,10 +45,10 @@ This is what makes responses **verifiable**: every recommendation traces back to
 
 The knowledge graph itself is built on a **dual structure**:
 
-| Graph | What it encodes |
-|---|---|
-| **School Knowledge Graph** | Courses ↔ prerequisites, majors/departments, schedules, and degree requirements |
-| **Personal Knowledge Graph** | Each student's academic history, completed courses, and declared interests |
+| Graph                        | What it encodes                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------- |
+| **School Knowledge Graph**   | Courses ↔ prerequisites, majors/departments, schedules, and degree requirements |
+| **Personal Knowledge Graph** | Each student's academic history, completed courses, and declared interests      |
 
 **CrewAI** orchestrates the full multi-agent workflow — query parsing, SPARQL generation, graph traversal, constraint checking, and response synthesis.
 

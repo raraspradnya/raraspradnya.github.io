@@ -35,12 +35,12 @@ This is not a fine-tune-and-done adaptation — we rebuilt the training pipeline
 
 ### Pipeline
 
-| Step | Script | What it does |
-|---|---|---|
+| Step      | Script       | What it does                                        |
+| --------- | ------------ | --------------------------------------------------- |
 | Data prep | `convert.py` | Dataset format conversion, scraping, face alignment |
-| Training | `train.py` | Full model retraining with warm weights |
-| Export | `export.py` | Exports trained model to `.h5` |
-| Demo | `demo.py` | Runs makeup transfer on new images |
+| Training  | `train.py`   | Full model retraining with warm weights             |
+| Export    | `export.py`  | Exports trained model to `.h5`                      |
+| Demo      | `demo.py`    | Runs makeup transfer on new images                  |
 
 ---
 
