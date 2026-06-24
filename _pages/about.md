@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Master's student at UC Berkeley &middot; 
-  Applied AI/ML &middot; Former Senior Technical Architect at Accenture
+   Applied AI/ML at UC Berkeley &middot; 
+   Former Senior Technical Architect at Accenture
 
 profile:
   align: right
