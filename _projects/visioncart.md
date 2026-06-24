@@ -11,13 +11,11 @@ Modern e-commerce is still anchored to keyword search — a modality that fails 
 
 Built as a group project at UC Berkeley School of Information for [INFO 290. Fundamentals of Generative AI](https://corneliailin.github.io/website-info290-genai-spring2026/) Course.
 
-
 <video width="100%" controls>
   <source src="{{ '/assets/video/visioncart_demo.mp4' | relative_url }}" type="video/mp4">
 </video>
 
 ---
-
 
 ### Framework
 
@@ -29,15 +27,14 @@ VisionCart runs a four-agent pipeline orchestrated with **LangGraph**
     </div>
 </div>
 
-| Agent | Role |
-|---|---|
-| **Stylist** | Analyzes Pinterest board images with Qwen2.5-VL-7B and produces a structured style persona — colors, materials, aesthetic tags, and a narrative description |
-| **Procurement** | Uses an LLM to generate aesthetic-forward search queries, then fetches live products from Google Shopping via SerpAPI |
-| **Ranker / Critic** | Scores each product on text similarity, semantic match, and image embedding similarity; rejects poor matches and generates feedback for retry |
-| **Output** | Calls a local Ollama LLM to produce a human-readable shopping summary and structured product cards |
+| Agent               | Role                                                                                                                                                        |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stylist**         | Analyzes Pinterest board images with Qwen2.5-VL-7B and produces a structured style persona — colors, materials, aesthetic tags, and a narrative description |
+| **Procurement**     | Uses an LLM to generate aesthetic-forward search queries, then fetches live products from Google Shopping via SerpAPI                                       |
+| **Ranker / Critic** | Scores each product on text similarity, semantic match, and image embedding similarity; rejects poor matches and generates feedback for retry               |
+| **Output**          | Calls a local Ollama LLM to produce a human-readable shopping summary and structured product cards                                                          |
 
 ---
-
 
 ## Tech Stack
 
