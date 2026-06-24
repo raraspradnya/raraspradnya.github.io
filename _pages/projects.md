@@ -5,7 +5,6 @@ permalink: /projects/
 description: A collection of AI/ML projects spanning multimodal systems, generative models, and agentic workflows.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
 horizontal: false
 ---
 

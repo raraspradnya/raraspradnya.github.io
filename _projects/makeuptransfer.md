@@ -2,7 +2,7 @@
 layout: page
 title: GAN-Based Makeup Transfer 💄
 description: Fine-tuning and retraining BeautyGAN for realistic makeup transfer across diverse skin tones
-img:
+img: /assets/img/3_gan.jpg
 importance: 3
 category: work
 ---

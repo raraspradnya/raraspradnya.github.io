@@ -28,7 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Master of Information Management and Systems at [UC Berkeley's School of Information](https://www.ischool.berkeley.edu/) specializing in applied AI/ML.
+Hi!👋🏼 I'm Raras (RAH-rahs)
+
+I am Graduate student at [UC Berkeley's School of Information](https://www.ischool.berkeley.edu/) studying Information Management and Systems with a focus in applied AI/ML systems.
 
 Previously a Senior Technical Architect at [Accenture](https://www.accenture.com/id-en), where I spent 3+ years building cloud-native infrastructure and enterprise-scale systems serving 15M+ users. Proven track record of designing and deploying scalable data pipelines, optimizing distributed systems, and implementing CI/CD workflows in cloud environments.
 

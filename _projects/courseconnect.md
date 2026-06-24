@@ -14,7 +14,7 @@ Students spend 6–10 hours per semester cross-checking requirements across ~10 
 Built as a course project at UC Berkeley School of Information for [INFO 290: Knowledge Representation for Intelligent Applications](https://www.ischool.berkeley.edu/courses/info/290/kria).
 
 <video width="100%" controls>
-  <source src="{{ '/assets/video/courseconnect_demo.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/video/courseconnect.mp4' | relative_url }}" type="video/mp4">
 </video>
 
 ---
